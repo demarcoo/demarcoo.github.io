@@ -1,0 +1,12 @@
+.web-header {
+  justify-content: space-between;
+  align-items: center;
+
+  .pokemon {
+    max-width: 5rem;
+  }
+
+  .contact {
+    text-align: end;
+  }
+}
