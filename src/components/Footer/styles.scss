@@ -1,0 +1,17 @@
+.footer {
+  &__text {
+    text-align: center;
+    margin: 0 5rem 0 5rem;
+
+    &::after {
+      content: "";
+      display: block;
+      height: 10rem;
+    }
+  }
+
+  &__end {
+    display: flex;
+    justify-content: space-between;
+  }
+}

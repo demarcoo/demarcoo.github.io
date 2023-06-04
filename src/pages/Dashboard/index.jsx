@@ -1,20 +1,24 @@
 import './styles.scss';
 import React from 'react';
-import { Link } from 'react-router-dom';
-// import sphinx from '../../assets/animation/sphinx.gif';
-import Navbar from '../../components/Navbar';
+// import { Link } from 'react-router-dom';
 
 function Dashboard() {
   return (
-    <div className="dashboard text-slate-900">
-      <Navbar />
+    <div className="dashboard">
       <section className="intro">
         <p className="intro__text">
-          Site Reliability Engineer
-          {' '}
-          <Link className="intro__text__place" to="https://shopee.com/">
-            @ Shopee
-          </Link>
+          {'Hi, I\'m Marco.'}
+          <br />
+          <span className="intro__details">
+            I help take your business online
+            <br />
+            and making it available to everyone.
+            <br />
+            {/* Currently working as a Site Reliability Engineer &nbsp;
+            <Link className="intro__text__place" to="https://shopee.com/">
+              @ Shopee
+            </Link> */}
+          </span>
         </p>
       </section>
     </div>

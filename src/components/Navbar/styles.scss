@@ -1,3 +1,5 @@
+@import '../../styles/variables.scss';
+
 .web-header {
   justify-content: space-between;
   align-items: center;
@@ -8,5 +10,12 @@
 
   .contact {
     text-align: end;
+
+    &:hover {
+      color: var(--primary-color);
+      transition: all 0.2s ease-in-out;
+      cursor: pointer;
+    }
+
   }
 }
