@@ -7,20 +7,16 @@ function Dashboard() {
   return (
     <div className="dashboard">
       <section className="intro">
-        <p className="intro__text">
-          {'Hi, I\'m Marco.'}
-          <br />
-          <span className="intro__details">
-            I help take your business online
+        <div className="intro-container">
+          <p className="intro__text">
+            {'Hi, it\'s me, Marco.'}
             <br />
-            and making it available to everyone.
-            <br />
-            {/* Currently working as a Site Reliability Engineer &nbsp;
-            <Link className="intro__text__place" to="https://shopee.com/">
-              @ Shopee
-            </Link> */}
-          </span>
-        </p>
+            <span className="intro__details">
+              I help take your business online and making it available to everyone.
+              <br />
+            </span>
+          </p>
+        </div>
       </section>
       <section className="projects">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xxl:grid-cols-3 gap-4 projects__list">
