@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles.scss';
+import github from '../../assets/icons/github-mark-white.svg';
 
 function Footer() {
   return (
@@ -10,9 +12,16 @@ function Footer() {
       <div className="footer__end">
         <div className="footer__end__copyright">
           © 2023 | Marco
+          <br />
+          Inspired by&nbsp;
+          <Link to="https://carlbeaverson.com/">
+            Carl Beaverson
+          </Link>
         </div>
         <div className="footer__end__contact">
-          Contact me
+          <Link to="https://github.com/demarcoo">
+            <img className="github-icon" src={github} alt="github logo" />
+          </Link>
         </div>
       </div>
     </footer>

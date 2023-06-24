@@ -18,5 +18,14 @@
   &__end {
     display: flex;
     justify-content: space-between;
+    &__contact{
+      .github-icon{
+        width: 2rem;
+        height: 2rem;
+        &:hover{
+          cursor: pointer;
+        }
+      }
+    }
   }
 }

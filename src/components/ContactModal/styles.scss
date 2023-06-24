@@ -1,0 +1,50 @@
+@import '../../styles/variables.scss';
+
+.contact-modal{
+  background-color: var(--secondary-bg-color);
+  padding: 2rem 3%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s ease-in-out;
+  z-index: 3;
+  min-width: 20rem;
+  max-width: 42.5rem;
+  min-height: 25rem;
+  &.hide{
+    transition: opacity 0.3s ease-in-out;
+    z-index: -1;
+    opacity: 0;
+  }
+  .contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .form-title{
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+        margin-top: 2.5rem;
+    }
+    .form-caption{
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .form-inputs{
+      width: 100%;
+      align-self: flex-start;
+      margin-bottom: 0.3rem;
+    }
+    .form-button{
+      border: 1px solid var(--primary-color);
+      transition: all 0.2s ease-in-out;
+      &:hover{
+        background-color: var(--primary-color);
+        color: var(--secondary-bg-color);
+        transition: all 0.2s ease-in-out;
+      }
+    }
+  }
+}
