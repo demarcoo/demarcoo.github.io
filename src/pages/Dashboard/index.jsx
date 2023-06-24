@@ -9,7 +9,7 @@ function Dashboard() {
       <section className="intro">
         <div className="intro-container">
           <p className="intro__text">
-            {'Hi, it\'s me, Marco.'}
+            {'Hi, it\'s me Marco.'}
             <br />
             <span className="intro__details">
               I help take your business online and making it available to everyone.
