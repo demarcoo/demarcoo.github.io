@@ -1,0 +1,14 @@
+.alert{
+    transition: all 0.3s ease;
+    transform: translateY(-100%);
+    position: sticky;
+    opacity: 0.9;
+    top: 5rem;
+    z-index: 2;
+    &.hide{
+        transition: all 0.3s ease;
+        transform: translateY(-100%);
+        opacity: 0;
+        z-index: -1;
+    }
+}

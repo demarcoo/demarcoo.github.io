@@ -19,7 +19,9 @@
     display: flex;
     justify-content: space-between;
     &__contact{
-      .github-icon{
+      display: flex;
+      gap: 0.5rem;
+      .contact-icon{
         width: 2rem;
         height: 2rem;
         &:hover{

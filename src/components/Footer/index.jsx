@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles.scss';
 import github from '../../assets/icons/github-mark-white.svg';
+import linkedin from '../../assets/icons/linkedin-white.svg';
 
 function Footer() {
   return (
@@ -20,7 +21,10 @@ function Footer() {
         </div>
         <div className="footer__end__contact">
           <Link to="https://github.com/demarcoo">
-            <img className="github-icon" src={github} alt="github logo" />
+            <img className="contact-icon" src={github} alt="github logo" />
+          </Link>
+          <Link to="https://github.com/demarcoo">
+            <img className="contact-icon" src={linkedin} alt="linkedin logo" />
           </Link>
         </div>
       </div>
